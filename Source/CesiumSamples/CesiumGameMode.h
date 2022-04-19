@@ -13,5 +13,8 @@ UCLASS()
 class CESIUMSAMPLES_API ACesiumGameMode : public AGameMode
 {
 	GENERATED_BODY()
+
+public:
+	virtual void StartPlay() override;
 	
 };

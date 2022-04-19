@@ -3,3 +3,8 @@
 
 #include "CesiumGameMode.h"
 
+void ACesiumGameMode::StartPlay()
+{
+	Super::StartPlay();
+	
+}
